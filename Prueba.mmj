@@ -1,0 +1,9 @@
+
+public class StringCalculator{
+public static int Add(String numbers){
+--if(input.isEmpty())
+return 0
+else if(numbers.contains(",")){
+String[] num = numbers.split(",");
+return Integer.parseInt(num[0]+Integer.parseInt(num[1]);
+numbers.split(",");

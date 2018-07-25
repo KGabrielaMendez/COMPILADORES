@@ -1,0 +1,23 @@
+function c1 ( x , y )  # f  jfjjj
+if x < y
+    print ( " x es menor que y " )
+elseif x > y
+    print ( " x es mayor que y " )
+else
+    for i in [ 1 ,  2 , 3 ]
+        print ( i * 2 )
+        print ( " - " )
+    end
+end
+if x < y     
+        println ( " es menor " ) 
+      else    
+        println ( " es mayor " )
+      end     
+es menor
+julia > x < y ? " x es menor a y " :  x > y ? " x es mayor a y " : " x es igual y "  
+" x es menor a y "
+julia > comparacion ( x , y ) = println ( x < y ? " x = $ x es menor que y = $ y " : x > y ? 
+" x es mayor que y " : " x es igual a y " )
+julia > comparacion ( 4 , 5 ) 
+x = 4 es menor que y = 5
